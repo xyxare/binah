@@ -1,0 +1,9 @@
+.main-menu{
+    
+    flex-direction: row;
+    display: flex;
+    margin-left: 20;
+    justify-content: space-between;
+    column-gap: 55px;
+    outline-color: #F2FF43;
+}
