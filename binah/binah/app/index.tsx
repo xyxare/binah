@@ -14,7 +14,7 @@ const Index = () => {
       />
       <BigMenuButton destination="recording" />
       <View style={menuStyleSheet.main_menu}>
-        <SmallMenuButton text="Games" />
+        <SmallMenuButton text="Games" destination="gamesMenu" />
         <SmallMenuButton text="Insights" />
       </View>
     </View>

@@ -1,0 +1,7 @@
+INSERT_GAME = "INSERT INTO games (name, pgn, result, moveCount) VALUES (%s, %s,%s, %s) RETURNING id; "
+UPDATE_GAME_NAME = "UPDATE games SET name = %s WHERE id = %s;"
+DELETE_GAME = "DELETE FROM games WHERE id = %s;"
+DELETE_EVERYTHING = "DROP TABLE games;"
+GET_GAMES = "SELECT * FROM games;"
+GET_LIMITED_GAMES = "SELECT * FROM games WHERE (id > %s AND id < %s);"
+GET_A_GAME = "SELECT * FROM games WHERE id = %s;"
